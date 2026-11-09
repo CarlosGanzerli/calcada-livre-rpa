@@ -7,7 +7,7 @@ pytest -v
 
 Para rodar contra o **MVP real** (recomendado), deixe o repositório `calcada-livre` na mesma pasta que este, ou aponte `MVP_DIR` para a pasta `mvp/` dele, e instale `calcada-livre/mvp/requirements.txt`. O cabeçalho do pytest mostra qual MVP foi usado.
 
-Resultado da última execução: [`evidencias/resultado-testes.txt`](evidencias/resultado-testes.txt) (20 de 20 aprovados, contra o MVP real).
+Resultado da última execução: [`evidencias/resultado-testes.txt`](evidencias/resultado-testes.txt) (21 de 21 aprovados, contra o MVP real).
 
 | Cenário | Teste | O que comprova |
 |---|---|---|

@@ -106,6 +106,13 @@ Uma linha JSON por evento em `logs/robo-triagem-AAAAMMDD.jsonl`, com data e hora
 
 O log **nunca** recebe descrição, foto ou coordenada: a classe `LogAuditoria` recusa esses campos.
 
+Para ler o log no terminal em formato legível (hora local, uma linha por evento):
+
+```bash
+python -m triagem 2>&1 | python -m triagem.ver_log          # durante a execução
+python -m triagem.ver_log < logs/amostra-execucao-20261109.jsonl
+```
+
 ## Integração com o MVP
 
 O robô lê e grava no mesmo contrato usado por todos os componentes (a ocorrência), pela API REST do MVP:
@@ -149,7 +156,7 @@ docker build -t calcada-livre-rpa . && docker run --env-file .env calcada-livre-
 pytest -v
 ```
 
-20 testes cobrindo os três cenários exigidos: **sucesso** (encaminha, gera pacote, não reprocessa), **decisão** (alta perto de hospital, chuva sobe nível, quarentena, duplicada, remoção de dado pessoal, lote CSV) e **falha** (API fora do ar com espera crescente, API cai no meio do lote, clima fora do ar, arquivo ausente, chave ausente). Se o repositório `calcada-livre` estiver na mesma pasta que este, os testes rodam contra o **MVP real**; senão, contra um MVP simulado com o mesmo contrato. Detalhes e resultado em [`tests/README.md`](tests/README.md).
+21 testes cobrindo os três cenários exigidos: **sucesso** (encaminha, gera pacote, não reprocessa), **decisão** (alta perto de hospital, chuva sobe nível, quarentena, duplicada, remoção de dado pessoal, lote CSV) e **falha** (API fora do ar com espera crescente, API cai no meio do lote, clima fora do ar, arquivo ausente, chave ausente). Se o repositório `calcada-livre` estiver na mesma pasta que este, os testes rodam contra o **MVP real**; senão, contra um MVP simulado com o mesmo contrato. Detalhes e resultado em [`tests/README.md`](tests/README.md).
 
 ## Segurança e LGPD
 

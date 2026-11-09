@@ -1,30 +1,30 @@
 ============================= test session starts ==============================
-platform linux -- Python 3.13.18, pytest-9.2.0, pluggy-1.7.0 -- .venv/bin/python
-cachedir: .pytest_cache
+platform linux -- Python 3.13.18, pytest-9.2.0, pluggy-1.7.0 -- .venv/bin/python3
 MVP usado nos testes: REAL em calcada-livre/mvp
 rootdir: calcada-livre-rpa
 plugins: anyio-4.16.0
-collecting ... collected 20 items
+collecting ... collected 21 items
 
-tests/test_regras.py::test_valida_ocorrencia_normal PASSED               [  5%]
-tests/test_regras.py::test_fora_do_municipio PASSED                      [ 10%]
-tests/test_regras.py::test_tipo_invalido_e_coordenada_ausente PASSED     [ 15%]
-tests/test_regras.py::test_visao_exige_foto_e_confianca PASSED           [ 20%]
-tests/test_regras.py::test_duplicada_ate_20m_e_mesmo_tipo PASSED         [ 25%]
-tests/test_regras.py::test_prioridade PASSED                             [ 30%]
-tests/test_regras.py::test_subprefeitura_e_protocolo PASSED              [ 35%]
-tests/test_regras.py::test_mascara_dados_pessoais PASSED                 [ 40%]
-tests/test_robo.py::test_sucesso_encaminha_e_gera_pacote PASSED          [ 45%]
-tests/test_robo.py::test_idempotente_segunda_execucao_nao_reprocessa PASSED [ 50%]
-tests/test_robo.py::test_decisao_perto_de_hospital_vira_alta_e_alerta PASSED [ 55%]
-tests/test_robo.py::test_decisao_chuva_sobe_um_nivel PASSED              [ 60%]
-tests/test_robo.py::test_decisao_quarentena_e_duplicada PASSED           [ 65%]
-tests/test_robo.py::test_decisao_remove_dado_pessoal_e_log_nao_vaza PASSED [ 70%]
-tests/test_robo.py::test_lote_csv_valido_e_invalido PASSED               [ 75%]
+tests/test_regras.py::test_valida_ocorrencia_normal PASSED               [  4%]
+tests/test_regras.py::test_fora_do_municipio PASSED                      [  9%]
+tests/test_regras.py::test_tipo_invalido_e_coordenada_ausente PASSED     [ 14%]
+tests/test_regras.py::test_visao_exige_foto_e_confianca PASSED           [ 19%]
+tests/test_regras.py::test_duplicada_ate_20m_e_mesmo_tipo PASSED         [ 23%]
+tests/test_regras.py::test_prioridade PASSED                             [ 28%]
+tests/test_regras.py::test_subprefeitura_e_protocolo PASSED              [ 33%]
+tests/test_regras.py::test_mascara_dados_pessoais PASSED                 [ 38%]
+tests/test_regras.py::test_ver_log_formata_linha_e_tolera_texto_solto PASSED [ 42%]
+tests/test_robo.py::test_sucesso_encaminha_e_gera_pacote PASSED          [ 47%]
+tests/test_robo.py::test_idempotente_segunda_execucao_nao_reprocessa PASSED [ 52%]
+tests/test_robo.py::test_decisao_perto_de_hospital_vira_alta_e_alerta PASSED [ 57%]
+tests/test_robo.py::test_decisao_chuva_sobe_um_nivel PASSED              [ 61%]
+tests/test_robo.py::test_decisao_quarentena_e_duplicada PASSED           [ 66%]
+tests/test_robo.py::test_decisao_remove_dado_pessoal_e_log_nao_vaza PASSED [ 71%]
+tests/test_robo.py::test_lote_csv_valido_e_invalido PASSED               [ 76%]
 tests/test_robo.py::test_falha_api_fora_do_ar_tenta_com_espera_crescente PASSED [ 80%]
 tests/test_robo.py::test_falha_api_cai_no_meio_preserva_o_restante PASSED [ 85%]
 tests/test_robo.py::test_falha_clima_fora_do_ar_degrada_sem_parar PASSED [ 90%]
 tests/test_robo.py::test_falha_arquivo_de_pois_ausente PASSED            [ 95%]
 tests/test_robo.py::test_falha_sem_chave_nao_executa PASSED              [100%]
 
-============================== 20 passed in 0.93s ==============================
+============================== 21 passed in 0.87s ==============================

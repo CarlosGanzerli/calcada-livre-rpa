@@ -57,3 +57,11 @@ def test_mascara_dados_pessoais():
     assert mudou
     assert "98765" not in texto and "joao@" not in texto and "123.456" not in texto
     assert regras.mascarar_dados_pessoais("Buraco na esquina") == ("Buraco na esquina", False)
+
+
+def test_ver_log_formata_linha_e_tolera_texto_solto():
+    from triagem.ver_log import formatar
+    linha = '{"ts": "2026-11-09T17:48:21+00:00", "nivel": "INFO", "execucao": "x", "evento": "ocorrencia_encaminhada", "id": "5cb49eab-ea14", "razoes": ["a", "b"]}'
+    saida = formatar(linha)
+    assert "ocorrencia_encaminhada" in saida and "id=5cb49eab" in saida and "razoes=a,b" in saida
+    assert formatar("texto que não é JSON\n") == "texto que não é JSON"
