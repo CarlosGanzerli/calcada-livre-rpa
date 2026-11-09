@@ -7,17 +7,17 @@ Content-Type: multipart/mixed; boundary="===============7982552866858350588=="
 
 --===============7982552866858350588==
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: quoted-printable
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
-=A7ada Livre.
+Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
 
 Subprefeitura: Pinheiros
-Ocorr=C3=AAncias: 1 (1 de prioridade alta)
+Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261109-5CB49EAB =C2=B7 degrau =C2=B7 prioridade alta
+- CL-20261109-5CB49EAB · degrau · prioridade alta
 
-O detalhamento est=C3=A1 no CSV anexo.
+O detalhamento está no CSV anexo.
 
 --===============7982552866858350588==
 Content-Type: text/csv
