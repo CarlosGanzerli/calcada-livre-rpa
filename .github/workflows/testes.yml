@@ -36,7 +36,15 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - run: |
-          IMG=ghcr.io/$(echo "${{ github.repository_owner }}" | tr 'A-Z' 'a-z')/calcada-livre-rpa
-          docker build --label org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }} -t $IMG:latest -t $IMG:${{ github.sha }} .
-          docker push $IMG:latest && docker push $IMG:${{ github.sha }}
+      - name: Nome da imagem (o GHCR exige letras minúsculas)
+        run: echo "IMG=ghcr.io/$(echo '${{ github.repository_owner }}' | tr 'A-Z' 'a-z')/calcada-livre-rpa" >> "$GITHUB_ENV"
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/build-push-action@v6
+        with:
+          context: .
+          push: true
+          provenance: false   # um manifesto simples, sem índice de atestação
+          tags: |
+            ${{ env.IMG }}:latest
+            ${{ env.IMG }}:${{ github.sha }}
+          labels: org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }}
