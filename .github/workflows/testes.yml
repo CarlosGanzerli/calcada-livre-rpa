@@ -21,3 +21,22 @@ jobs:
       - run: pip install -r calcada-livre-rpa/requirements-dev.txt
       - run: if [ -f calcada-livre/mvp/requirements.txt ]; then pip install -r calcada-livre/mvp/requirements.txt; fi
       - run: cd calcada-livre-rpa && pytest -v
+
+  publicar:
+    needs: pytest
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          IMG=ghcr.io/$(echo "${{ github.repository_owner }}" | tr 'A-Z' 'a-z')/calcada-livre-rpa
+          docker build --label org.opencontainers.image.source=${{ github.server_url }}/${{ github.repository }} -t $IMG:latest -t $IMG:${{ github.sha }} .
+          docker push $IMG:latest && docker push $IMG:${{ github.sha }}
