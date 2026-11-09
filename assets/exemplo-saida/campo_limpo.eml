@@ -1,0 +1,33 @@
+From: robo-triagem@calcadalivre.example
+To: zeladoria.campo_limpo@prefeitura.example
+Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
+ Subprefeitura Campo Limpo
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0321454810238405009=="
+
+--===============0321454810238405009==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
+=A7ada Livre.
+
+Subprefeitura: Campo Limpo
+Ocorr=C3=AAncias: 1 (0 de prioridade alta)
+
+- CL-20261109-D9AA3B55 =C2=B7 trecho_escuro =C2=B7 prioridade baixa
+
+O detalhamento est=C3=A1 no CSV anexo.
+
+--===============0321454810238405009==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="campo_limpo.csv"
+MIME-Version: 1.0
+
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
+b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktRDlBQTNCNTUsdHJlY2hvX2Vz
+Y3VybyxiYWl4YSxiYXNlX3RyZWNob19lc2N1cm89YmFpeGEsQ2FtcG8gTGltcG8sLTIzLjY0LC00
+Ni43NixjYXJyaW5obywyMDI2LTExLTA5VDE3OjQ4OjE3Ljg1ODY0Ng0K
+
+--===============0321454810238405009==--

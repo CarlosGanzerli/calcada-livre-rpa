@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+entrada/
+saida/
+logs/*.jsonl
+!logs/amostra-*.jsonl
+tests/_teste_mvp.db
