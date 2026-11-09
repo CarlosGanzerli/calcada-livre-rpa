@@ -7,17 +7,17 @@ Content-Type: multipart/mixed; boundary="===============4707628577296620093=="
 
 --===============4707628577296620093==
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: quoted-printable
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
-=A7ada Livre.
+Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
 
 Subprefeitura: Lapa
-Ocorr=C3=AAncias: 1 (0 de prioridade alta)
+Ocorrências: 1 (0 de prioridade alta)
 
-- CL-20261109-505402CA =C2=B7 sem_rampa =C2=B7 prioridade media
+- CL-20261109-505402CA · sem_rampa · prioridade media
 
-O detalhamento est=C3=A1 no CSV anexo.
+O detalhamento está no CSV anexo.
 
 --===============4707628577296620093==
 Content-Type: text/csv

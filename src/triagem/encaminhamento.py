@@ -51,7 +51,8 @@ def gerar_pacotes(encaminhadas: list[dict], pasta: Path, quando: datetime, log: 
             f"Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.\n\n"
             f"Subprefeitura: {sub}\nOcorrências: {len(itens)} ({altas} de prioridade alta)\n\n"
             + "\n".join(f"- {o['protocolo']} · {o['tipo']} · prioridade {o['prioridade']}" for o in itens)
-            + "\n\nO detalhamento está no CSV anexo.\n"
+            + "\n\nO detalhamento está no CSV anexo.\n",
+            cte="8bit",  # texto legível ao abrir o .eml num editor
         )
         email.add_attachment(arq_csv.read_bytes(), maintype="text", subtype="csv", filename=arq_csv.name)
         arq_eml = destino / f"{base}.eml"

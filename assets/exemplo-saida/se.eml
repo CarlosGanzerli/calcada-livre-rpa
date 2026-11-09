@@ -7,17 +7,17 @@ Content-Type: multipart/mixed; boundary="===============9001401970951072940=="
 
 --===============9001401970951072940==
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: quoted-printable
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
-=A7ada Livre.
+Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
 
-Subprefeitura: S=C3=A9
-Ocorr=C3=AAncias: 1 (1 de prioridade alta)
+Subprefeitura: Sé
+Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261109-1CE22664 =C2=B7 obstaculo =C2=B7 prioridade alta
+- CL-20261109-1CE22664 · obstaculo · prioridade alta
 
-O detalhamento est=C3=A1 no CSV anexo.
+O detalhamento está no CSV anexo.
 
 --===============9001401970951072940==
 Content-Type: text/csv

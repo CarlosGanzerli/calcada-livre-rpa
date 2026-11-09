@@ -7,17 +7,17 @@ Content-Type: multipart/mixed; boundary="===============6056964380853490888=="
 
 --===============6056964380853490888==
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: quoted-printable
+Content-Transfer-Encoding: 8bit
+MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
-=A7ada Livre.
+Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
 
 Subprefeitura: Santana/Tucuruvi
-Ocorr=C3=AAncias: 1 (0 de prioridade alta)
+Ocorrências: 1 (0 de prioridade alta)
 
-- CL-20261109-29CC9F0D =C2=B7 calcada_estreita =C2=B7 prioridade baixa
+- CL-20261109-29CC9F0D · calcada_estreita · prioridade baixa
 
-O detalhamento est=C3=A1 no CSV anexo.
+O detalhamento está no CSV anexo.
 
 --===============6056964380853490888==
 Content-Type: text/csv
