@@ -1,0 +1,33 @@
+From: robo-triagem@calcadalivre.example
+To: zeladoria.itaquera@prefeitura.example
+Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
+ Subprefeitura Itaquera
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5111085563573893319=="
+
+--===============5111085563573893319==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
+=A7ada Livre.
+
+Subprefeitura: Itaquera
+Ocorr=C3=AAncias: 1 (1 de prioridade alta)
+
+- CL-20261109-8913862C =C2=B7 obstaculo =C2=B7 prioridade alta
+
+O detalhamento est=C3=A1 no CSV anexo.
+
+--===============5111085563573893319==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="itaquera.csv"
+MIME-Version: 1.0
+
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
+b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktODkxMzg2MkMsb2JzdGFjdWxv
+LGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVfcG9udG9fb25pYnVzLEl0YXF1ZXJh
+LC0yMy41NDIsLTQ2LjQ3MTIsY2FycmluaG8sMjAyNi0xMS0wOVQxNzo0ODoyMC45MTA0MjANCg==
+
+--===============5111085563573893319==--

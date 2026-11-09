@@ -1,0 +1,3 @@
+-r requirements.txt
+pytest==9.2.0
+# Opcional: para rodar os testes contra o MVP real, instale também ../calcada-livre/mvp/requirements.txt

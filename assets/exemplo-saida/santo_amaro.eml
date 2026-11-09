@@ -1,0 +1,33 @@
+From: robo-triagem@calcadalivre.example
+To: zeladoria.santo_amaro@prefeitura.example
+Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
+ Subprefeitura Santo Amaro
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============2823891664901134587=="
+
+--===============2823891664901134587==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
+=A7ada Livre.
+
+Subprefeitura: Santo Amaro
+Ocorr=C3=AAncias: 1 (0 de prioridade alta)
+
+- CL-20261109-1D393BBA =C2=B7 buraco =C2=B7 prioridade media
+
+O detalhamento est=C3=A1 no CSV anexo.
+
+--===============2823891664901134587==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="santo_amaro.csv"
+MIME-Version: 1.0
+
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
+b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktMUQzOTNCQkEsYnVyYWNvLG1l
+ZGlhLGJhc2VfYnVyYWNvPW1lZGlhLFNhbnRvIEFtYXJvLC0yMy42MTA1LC00Ni42OTUyLGFwcCwy
+MDI2LTExLTA5VDE3OjQ4OjE3LjgzNDgxNg0K
+
+--===============2823891664901134587==--

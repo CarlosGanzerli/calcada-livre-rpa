@@ -1,0 +1,33 @@
+From: robo-triagem@calcadalivre.example
+To: zeladoria.pinheiros@prefeitura.example
+Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
+ Subprefeitura Pinheiros
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7982552866858350588=="
+
+--===============7982552866858350588==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Mensagem simulada, gerada automaticamente pelo rob=C3=B4 de triagem da Cal=C3=
+=A7ada Livre.
+
+Subprefeitura: Pinheiros
+Ocorr=C3=AAncias: 1 (1 de prioridade alta)
+
+- CL-20261109-5CB49EAB =C2=B7 degrau =C2=B7 prioridade alta
+
+O detalhamento est=C3=A1 no CSV anexo.
+
+--===============7982552866858350588==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="pinheiros.csv"
+MIME-Version: 1.0
+
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
+b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktNUNCNDlFQUIsZGVncmF1LGFs
+dGEsYmFzZV9kZWdyYXU9bWVkaWE7cGVydG9fZGVfaG9zcGl0YWwsUGluaGVpcm9zLC0yMy41NTc0
+LC00Ni42Njk5LGNhcnJpbmhvLDIwMjYtMTEtMDlUMTc6NDg6MTcuODQxMzAxDQo=
+
+--===============7982552866858350588==--

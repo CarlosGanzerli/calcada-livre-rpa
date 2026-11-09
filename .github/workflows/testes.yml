@@ -1,0 +1,23 @@
+name: testes
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: calcada-livre-rpa
+      # Baixa o MVP ao lado para os testes rodarem contra a API real
+      - uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/calcada-livre
+          path: calcada-livre
+        continue-on-error: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r calcada-livre-rpa/requirements-dev.txt
+      - run: if [ -f calcada-livre/mvp/requirements.txt ]; then pip install -r calcada-livre/mvp/requirements.txt; fi
+      - run: cd calcada-livre-rpa && pytest -v
