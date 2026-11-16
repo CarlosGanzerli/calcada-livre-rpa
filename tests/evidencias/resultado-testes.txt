@@ -1,3 +1,4 @@
+$ pytest -v -p no:warnings
 ============================= test session starts ==============================
 platform linux -- Python 3.13.18, pytest-9.2.0, pluggy-1.7.0 -- .venv/bin/python3
 MVP usado nos testes: REAL em calcada-livre/mvp
@@ -27,4 +28,4 @@ tests/test_robo.py::test_falha_clima_fora_do_ar_degrada_sem_parar PASSED [ 90%]
 tests/test_robo.py::test_falha_arquivo_de_pois_ausente PASSED            [ 95%]
 tests/test_robo.py::test_falha_sem_chave_nao_executa PASSED              [100%]
 
-============================== 21 passed in 0.87s ==============================
+============================== 21 passed in 1.12s ==============================

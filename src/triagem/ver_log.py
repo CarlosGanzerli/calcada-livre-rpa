@@ -2,7 +2,7 @@
 
 Uso:
   python -m triagem 2>&1 | python -m triagem.ver_log
-  python -m triagem.ver_log < logs/robo-triagem-20261109.jsonl
+  python -m triagem.ver_log < logs/robo-triagem-20261116.jsonl
 """
 import json
 import sys

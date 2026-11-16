@@ -1,33 +1,29 @@
-From: robo-triagem@calcadalivre.example
+From: triagem@calcadalivre.example
 To: zeladoria.se@prefeitura.example
-Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
- Subprefeitura =?utf-8?q?S=C3=A9?=
+Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Sé
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============9001401970951072940=="
+Content-Type: multipart/mixed; boundary="===============0470671190950967553=="
 
---===============9001401970951072940==
+--===============0470671190950967553==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
-MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
+Mensagem simulada, gerada automaticamente pela automação de triagem da Calçada Livre.
 
 Subprefeitura: Sé
 Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261109-1CE22664 · obstaculo · prioridade alta
+- CL-20261116-0E0E92E6 · obstaculo · prioridade alta
 
 O detalhamento está no CSV anexo.
 
---===============9001401970951072940==
+--===============0470671190950967553==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="se.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
-b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktMUNFMjI2NjQsb2JzdGFjdWxv
-LGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVfcG9udG9fb25pYnVzLFPDqSwtMjMu
-NTYxNSwtNDYuNjU2LHZpc2FvLDIwMjYtMTEtMDlUMTc6NDg6MTcuODQ0NTYyDQo=
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtMEUwRTkyRTYsb2JzdGFjdWxvLGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVf
+cG9udG9fb25pYnVzLFPDqSwtMjMuNTYxNSwtNDYuNjU2LHZpc2FvLDIwMjYtMTEtMTZUMTg6MDE6MTEuMzgzNzg1DQo=
 
---===============9001401970951072940==--
+--===============0470671190950967553==--

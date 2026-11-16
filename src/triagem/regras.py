@@ -127,7 +127,7 @@ def subprefeitura(lat: float, lon: float) -> str:
 
 
 def gerar_protocolo(oc: dict, quando: datetime) -> str:
-    """Determinístico: rodar o robô duas vezes não gera dois protocolos."""
+    """Determinístico: rodar a automação duas vezes não gera dois protocolos."""
     return f"CL-{quando:%Y%m%d}-{oc['id'].replace('-', '')[:8].upper()}"
 
 

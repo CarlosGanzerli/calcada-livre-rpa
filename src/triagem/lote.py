@@ -1,7 +1,7 @@
 """Importação de lotes em CSV deixados na pasta entrada/.
 
 Exemplo de uso: o carrinho sem Wi-Fi grava as leituras num cartão e exporta um CSV;
-a equipe de campo exporta uma planilha. O robô valida o arquivo inteiro antes de
+a equipe de campo exporta uma planilha. A automação valida o arquivo inteiro antes de
 importar: arquivo vazio, sem as colunas obrigatórias ou ilegível vai para
 entrada/rejeitados/ e o motivo fica no log.
 """

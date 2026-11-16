@@ -1,4 +1,4 @@
-"""Testes de ponta a ponta do robô contra o MVP real (cenários de sucesso, decisão e falha)."""
+"""Testes de ponta a ponta da automação contra o MVP real (cenários de sucesso, decisão e falha)."""
 import json
 
 import httpx

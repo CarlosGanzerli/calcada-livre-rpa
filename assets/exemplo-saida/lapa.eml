@@ -1,33 +1,29 @@
-From: robo-triagem@calcadalivre.example
+From: triagem@calcadalivre.example
 To: zeladoria.lapa@prefeitura.example
-Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
- Subprefeitura Lapa
+Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Lapa
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============4707628577296620093=="
+Content-Type: multipart/mixed; boundary="===============6699766445213012722=="
 
---===============4707628577296620093==
+--===============6699766445213012722==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
-MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
+Mensagem simulada, gerada automaticamente pela automação de triagem da Calçada Livre.
 
 Subprefeitura: Lapa
 Ocorrências: 1 (0 de prioridade alta)
 
-- CL-20261109-505402CA · sem_rampa · prioridade media
+- CL-20261116-0959FE67 · sem_rampa · prioridade media
 
 O detalhamento está no CSV anexo.
 
---===============4707628577296620093==
+--===============6699766445213012722==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="lapa.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
-b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktNTA1NDAyQ0Esc2VtX3JhbXBh
-LG1lZGlhLGJhc2Vfc2VtX3JhbXBhPW1lZGlhLExhcGEsLTIzLjUzLC00Ni43LGFwcCwyMDI2LTEx
-LTA5VDE3OjQ4OjE3Ljg1NTkwNg0K
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtMDk1OUZFNjcsc2VtX3JhbXBhLG1lZGlhLGJhc2Vfc2VtX3JhbXBhPW1lZGlhLExhcGEsLTIz
+LjUzLC00Ni43LGFwcCwyMDI2LTExLTE2VDE4OjAxOjExLjQwNTc5MQ0K
 
---===============4707628577296620093==--
+--===============6699766445213012722==--

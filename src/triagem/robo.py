@@ -1,4 +1,4 @@
-"""Robô de triagem de ocorrências da Calçada Livre.
+"""Automação de triagem de ocorrências da Calçada Livre (RPA).
 
 Fluxo (ver docs/processo-triagem.bpmn):
   1. Importa lotes CSV da pasta entrada/.
@@ -51,7 +51,7 @@ def executar(cfg: Config | None = None, http_api: httpx.Client | None = None,
         log.erro("configuracao_invalida", motivo="ROBO_API_KEY ausente")
         return COM_ERROS, res
 
-    # Arquivo de apoio ausente não derruba o robô: ele segue sem a regra de proximidade.
+    # Arquivo de apoio ausente não derruba a automação: ela segue sem a regra de proximidade.
     try:
         pois = regras.carregar_pois(cfg.arquivo_pois)
     except (FileNotFoundError, KeyError, ValueError) as e:
@@ -131,7 +131,7 @@ def executar(cfg: Config | None = None, http_api: httpx.Client | None = None,
 
 
 def main(argv: list[str] | None = None) -> int:
-    p = argparse.ArgumentParser(description="Robô de triagem de ocorrências da Calçada Livre")
+    p = argparse.ArgumentParser(description="Automação de triagem de ocorrências da Calçada Livre (RPA)")
     p.add_argument("--continuo", action="store_true", help="repete a cada INTERVALO_MIN minutos")
     args = p.parse_args(argv)
     cfg = Config()

@@ -1,6 +1,6 @@
 """Previsão de chuva pelo Open-Meteo (gratuito, sem chave).
 
-Se o serviço falhar, o robô continua sem a regra de chuva e registra um AVISO:
+Se o serviço falhar, a automação continua sem a regra de chuva e registra um AVISO:
 degrada com transparência, nunca falha em silêncio.
 """
 import httpx

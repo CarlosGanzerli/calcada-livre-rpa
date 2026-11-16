@@ -1,33 +1,29 @@
-From: robo-triagem@calcadalivre.example
+From: triagem@calcadalivre.example
 To: zeladoria.pinheiros@prefeitura.example
-Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
- Subprefeitura Pinheiros
+Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Pinheiros
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7982552866858350588=="
+Content-Type: multipart/mixed; boundary="===============1139108403632615912=="
 
---===============7982552866858350588==
+--===============1139108403632615912==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
-MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
+Mensagem simulada, gerada automaticamente pela automação de triagem da Calçada Livre.
 
 Subprefeitura: Pinheiros
 Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261109-5CB49EAB · degrau · prioridade alta
+- CL-20261116-13B8B1D2 · degrau · prioridade alta
 
 O detalhamento está no CSV anexo.
 
---===============7982552866858350588==
+--===============1139108403632615912==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="pinheiros.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
-b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktNUNCNDlFQUIsZGVncmF1LGFs
-dGEsYmFzZV9kZWdyYXU9bWVkaWE7cGVydG9fZGVfaG9zcGl0YWwsUGluaGVpcm9zLC0yMy41NTc0
-LC00Ni42Njk5LGNhcnJpbmhvLDIwMjYtMTEtMDlUMTc6NDg6MTcuODQxMzAxDQo=
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtMTNCOEIxRDIsZGVncmF1LGFsdGEsYmFzZV9kZWdyYXU9bWVkaWE7cGVydG9fZGVfaG9zcGl0
+YWwsUGluaGVpcm9zLC0yMy41NTc0LC00Ni42Njk5LGNhcnJpbmhvLDIwMjYtMTEtMTZUMTg6MDE6MTEuMzc3ODMxDQo=
 
---===============7982552866858350588==--
+--===============1139108403632615912==--

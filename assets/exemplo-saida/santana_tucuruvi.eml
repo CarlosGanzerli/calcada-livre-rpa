@@ -1,33 +1,29 @@
-From: robo-triagem@calcadalivre.example
+From: triagem@calcadalivre.example
 To: zeladoria.santana_tucuruvi@prefeitura.example
-Subject: [SIMULADO] =?utf-8?q?Cal=C3=A7ada?= Livre: 1 barreira(s) para a
- Subprefeitura Santana/Tucuruvi
+Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Santana/Tucuruvi
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6056964380853490888=="
+Content-Type: multipart/mixed; boundary="===============4314782945244001817=="
 
---===============6056964380853490888==
+--===============4314782945244001817==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
-MIME-Version: 1.0
 
-Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.
+Mensagem simulada, gerada automaticamente pela automação de triagem da Calçada Livre.
 
 Subprefeitura: Santana/Tucuruvi
 Ocorrências: 1 (0 de prioridade alta)
 
-- CL-20261109-29CC9F0D · calcada_estreita · prioridade baixa
+- CL-20261116-6959083B · calcada_estreita · prioridade baixa
 
 O detalhamento está no CSV anexo.
 
---===============6056964380853490888==
+--===============4314782945244001817==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="santana_tucuruvi.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxs
-b25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMDktMjlDQzlGMEQsY2FsY2FkYV9l
-c3RyZWl0YSxiYWl4YSxiYXNlX2NhbGNhZGFfZXN0cmVpdGE9YmFpeGEsU2FudGFuYS9UdWN1cnV2
-aSwtMjMuNSwtNDYuNjIsY2FycmluaG8sMjAyNi0xMS0wOVQxNzo0ODoyMC45MTU2NjINCg==
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtNjk1OTA4M0IsY2FsY2FkYV9lc3RyZWl0YSxiYWl4YSxiYXNlX2NhbGNhZGFfZXN0cmVpdGE9
+YmFpeGEsU2FudGFuYS9UdWN1cnV2aSwtMjMuNSwtNDYuNjIsY2FycmluaG8sMjAyNi0xMS0xNlQxODowMToxMi41ODcwNjcNCg==
 
---===============6056964380853490888==--
+--===============4314782945244001817==--

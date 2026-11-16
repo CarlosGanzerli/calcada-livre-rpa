@@ -1,7 +1,7 @@
 """Popula a API com um cenário de demonstração (para o vídeo e para testar à mão).
 
 Uso: python -m triagem.semear
-Cria ocorrências de cada origem cobrindo todas as decisões do robô e deixa um
+Cria ocorrências de cada origem cobrindo todas as decisões da automação e deixa um
 lote CSV válido e um inválido na pasta entrada/.
 """
 import httpx

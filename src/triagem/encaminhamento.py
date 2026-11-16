@@ -1,19 +1,23 @@
 """Pacote de encaminhamento por subprefeitura e alerta de prioridade alta.
 
 IMPORTANTE: o encaminhamento é SIMULADO. Nada é enviado ao SP156 ou à prefeitura.
-O robô gera um CSV por subprefeitura e um e-mail em arquivo .eml, prontos para
+A automação gera um CSV por subprefeitura e um e-mail em arquivo .eml, prontos para
 quem for operar o serviço de verdade.
 """
 import csv
 import unicodedata
 from collections import defaultdict
 from datetime import datetime
+from email import policy
 from email.message import EmailMessage
 from pathlib import Path
 
 import httpx
 
 from .logs import LogAuditoria
+
+# Cabeçalhos em UTF-8 e sem quebra, para o .eml ficar legível também num editor de texto.
+POLITICA_EMAIL = policy.SMTPUTF8.clone(max_line_length=200)
 
 COLUNAS = ["protocolo", "tipo", "prioridade", "razoes", "subprefeitura", "latitude", "longitude", "origem", "criada_em"]
 
@@ -42,13 +46,14 @@ def gerar_pacotes(encaminhadas: list[dict], pasta: Path, quando: datetime, log: 
             w.writeheader()
             w.writerows(itens)
 
-        email = EmailMessage()
-        email["From"] = "robo-triagem@calcadalivre.example"
+        email = EmailMessage(policy=POLITICA_EMAIL)
+        email["From"] = "triagem@calcadalivre.example"
         email["To"] = f"zeladoria.{base}@prefeitura.example"
-        email["Subject"] = f"[SIMULADO] Calçada Livre: {len(itens)} barreira(s) para a Subprefeitura {sub}"
+        barreiras = "1 barreira" if len(itens) == 1 else f"{len(itens)} barreiras"
+        email["Subject"] = f"[SIMULADO] Calçada Livre: {barreiras} para a Subprefeitura {sub}"
         altas = sum(1 for o in itens if o["prioridade"] == "alta")
         email.set_content(
-            f"Mensagem simulada, gerada automaticamente pelo robô de triagem da Calçada Livre.\n\n"
+            f"Mensagem simulada, gerada automaticamente pela automação de triagem da Calçada Livre.\n\n"
             f"Subprefeitura: {sub}\nOcorrências: {len(itens)} ({altas} de prioridade alta)\n\n"
             + "\n".join(f"- {o['protocolo']} · {o['tipo']} · prioridade {o['prioridade']}" for o in itens)
             + "\n\nO detalhamento está no CSV anexo.\n",

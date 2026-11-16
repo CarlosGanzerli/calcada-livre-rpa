@@ -1,4 +1,4 @@
-"""Configuração do robô, toda por variável de ambiente (nada de segredo no código)."""
+"""Configuração da automação, toda por variável de ambiente (nada de segredo no código)."""
 import os
 from dataclasses import dataclass, field
 from pathlib import Path

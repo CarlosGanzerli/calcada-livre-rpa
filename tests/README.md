@@ -22,7 +22,7 @@ Resultado da última execução: [`evidencias/resultado-testes.txt`](evidencias/
 | Falha | `test_falha_api_cai_no_meio_preserva_o_restante` | Uma ocorrência gravada, a outra continua `nova` para a próxima execução |
 | Falha | `test_falha_clima_fora_do_ar_degrada_sem_parar` | Open-Meteo fora: segue sem a regra de chuva e registra AVISO |
 | Falha | `test_falha_arquivo_de_pois_ausente` | Arquivo de apoio ausente: segue sem a regra de proximidade e registra AVISO |
-| Falha | `test_falha_sem_chave_nao_executa` | Sem `ROBO_API_KEY` o robô não executa |
+| Falha | `test_falha_sem_chave_nao_executa` | Sem `ROBO_API_KEY` a automação não executa |
 | Unidade | `test_regras.py` (8 testes) | Validação, distância, duplicidade, prioridade, subprefeitura, protocolo e máscara de dados pessoais |
 
 ## Teste manual (o mesmo do vídeo)
@@ -30,4 +30,4 @@ Resultado da última execução: [`evidencias/resultado-testes.txt`](evidencias/
 1. Suba o MVP e rode `PYTHONPATH=src python -m triagem.semear`.
 2. Abra o MVP no navegador: 8 ocorrências `nova`.
 3. Rode `PYTHONPATH=src python -m triagem` e recarregue a página: status, prioridade, protocolo e subprefeitura preenchidos.
-4. Pare o MVP e rode o robô de novo: 4 tentativas com espera crescente e ERRO no log, código de saída 2.
+4. Pare o MVP e rode a automação de novo: 4 tentativas com espera crescente e ERRO no log, código de saída 2.

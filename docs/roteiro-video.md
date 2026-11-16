@@ -6,10 +6,10 @@ O vídeo mostra uma **execução real** da automação contra a API do MVP, grav
 
 | Tempo | Tela | Narração |
 |---|---|---|
-| 0:00 | Título e integrantes | "Somos a equipe Calçada Livre. Barreiras nas calçadas de São Paulo chegam pelo app do cidadão, pelo carrinho de sensores e pela câmera." |
+| 0:00 | Título e integrantes | "Somos a equipe Calçada Livre. Barreiras nas calçadas de São Paulo chegam pelo app do cidadão, pelo carrinho de sensores do Maker Lab e pela câmera." |
 | 0:09 | Título | "Conferir, priorizar e encaminhar cada relato à mão não escala. A nossa automação de RPA faz isso sozinha, a cada quinze minutos." |
-| 0:18 | BPMN (percorrido da esquerda para a direita) | "No BPMN, a automação importa lotes CSV, lê as ocorrências novas na API do MVP, consulta a chuva e decide, uma a uma: é válida? É duplicada? Qual a prioridade?" |
-| 0:29 | BPMN, parte final | "Depois gera um pacote por subprefeitura, alerta as urgentes e registra tudo num log de auditoria." |
+| 0:18 | BPMN ampliado: início do fluxo e bloco das decisões | "No BPMN, a automação importa lotes CSV, lê as ocorrências novas na API do MVP, consulta a chuva e decide, uma a uma: é válida? É duplicada? Qual a prioridade?" |
+| 0:29 | BPMN ampliado: parte final | "Depois gera um pacote por subprefeitura, alerta as urgentes e registra tudo num log de auditoria." |
 | 0:36 | Terminal + MVP: `python -m triagem.semear` | "Para a demonstração, criamos oito ocorrências pela API do MVP e dois lotes CSV, um deles com formato errado." |
 | 0:45 | MVP: tabela com tudo como "nova" | "No MVP, todas estão como nova, sem prioridade e sem protocolo." |
 | 0:50 | Terminal: `python -m triagem` | "Agora, a execução real. Cada linha é um evento do log de auditoria." |
