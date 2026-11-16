@@ -6,7 +6,7 @@ Componente de **Automação** da CitizenTech **Calçada Livre**, FIAP Global Sol
 
 | Entrega | Onde está |
 |---|---|
-| Vídeo de demonstração (2 min 49 s) | [`assets/video-demonstracao.mp4`](assets/video-demonstracao.mp4) |
+| Vídeo de demonstração (2 min 49 s) | [`assets/video-demonstracao.mp4`](https://github.com/CarlosGanzerli/calcada-livre-rpa/raw/main/assets/video-demonstracao.mp4) (MP4 de 6,4 MB; o link baixa o vídeo) |
 | Relatório técnico em PDF | [`docs/Relatorio-RPA-Calcada-Livre.pdf`](docs/Relatorio-RPA-Calcada-Livre.pdf) |
 | Fluxo do processo (BPMN 2.0) | [`docs/processo-triagem.bpmn`](docs/processo-triagem.bpmn) · [imagem](docs/processo-triagem.svg) |
 | Código-fonte | [`src/triagem/`](src/triagem/) |
