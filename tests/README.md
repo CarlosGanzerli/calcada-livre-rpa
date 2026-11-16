@@ -23,7 +23,7 @@ Resultado da última execução: [`evidencias/resultado-testes.txt`](evidencias/
 | Falha | `test_falha_clima_fora_do_ar_degrada_sem_parar` | Open-Meteo fora: segue sem a regra de chuva e registra AVISO |
 | Falha | `test_falha_arquivo_de_pois_ausente` | Arquivo de apoio ausente: segue sem a regra de proximidade e registra AVISO |
 | Falha | `test_falha_sem_chave_nao_executa` | Sem `ROBO_API_KEY` a automação não executa |
-| Unidade | `test_regras.py` (8 testes) | Validação, distância, duplicidade, prioridade, subprefeitura, protocolo e máscara de dados pessoais |
+| Unidade | `test_regras.py` (9 testes) | Validação, distância, duplicidade, prioridade, subprefeitura, protocolo, máscara de dados pessoais e leitor do log |
 
 ## Teste manual (o mesmo do vídeo)
 

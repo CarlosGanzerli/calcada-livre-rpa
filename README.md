@@ -53,7 +53,7 @@ As setas mostram o caminho dos dados. A automação só conversa com o MVP pela 
 
 ## Fluxo do processo
 
-O BPMN editável está em [`docs/processo-triagem.bpmn`](docs/processo-triagem.bpmn) (abre no [bpmn.io](https://demo.bpmn.io)). A imagem abaixo é vetorial: clique para ampliar.
+O BPMN editável está em [`docs/processo-triagem.bpmn`](docs/processo-triagem.bpmn) (abre no [bpmn.io](https://demo.bpmn.io)). A imagem abaixo é o mesmo diagrama.
 
 ![BPMN do processo de triagem](docs/processo-triagem.svg)
 
@@ -131,9 +131,13 @@ A automação lê e grava no mesmo contrato usado por todos os componentes (a oc
 
 O resultado é consumido pelo MVP: a página e o resumo da API passam a mostrar status, prioridade, protocolo e subprefeitura.
 
-| Antes da execução | Depois da execução |
-|---|---|
-| ![Página do MVP antes: 8 ocorrências novas, sem prioridade nem protocolo](assets/mvp-antes-da-triagem.png) | ![Página do MVP depois: 7 encaminhadas, 2 em quarentena e 1 duplicada](assets/mvp-depois-da-triagem.png) |
+**Antes da execução:** 8 ocorrências criadas pela API, todas `nova`, sem prioridade, protocolo ou subprefeitura.
+
+![Página do MVP antes: 8 ocorrências novas, sem prioridade nem protocolo](assets/mvp-antes-da-triagem.png)
+
+**Depois da execução:** 10 ocorrências (as 2 linhas válidas do lote CSV foram importadas), 7 encaminhadas com prioridade, protocolo e subprefeitura, 2 em quarentena e 1 duplicada.
+
+![Página do MVP depois: 7 encaminhadas, 2 em quarentena e 1 duplicada](assets/mvp-depois-da-triagem.png)
 
 O pacote gerado nessa execução está em [`assets/exemplo-saida/`](assets/exemplo-saida/) (um CSV e um e-mail simulado por subprefeitura).
 
@@ -183,7 +187,7 @@ pytest -v
 
 ```
 src/triagem/   código da automação (robo.py orquestra; regras.py tem as decisões)
-docs/          BPMN (.bpmn, .svg e .png), arquitetura, relatório em PDF e roteiro do vídeo
+docs/          BPMN (.bpmn, .svg e .png), arquitetura e relatório em PDF
 assets/        vídeo, evidências visuais e exemplo de saída (CSV e e-mail simulado)
 logs/          amostra de log real, sem dados sensíveis
 tests/         testes automatizados, instruções e evidências
