@@ -2,9 +2,9 @@ From: triagem@calcadalivre.example
 To: zeladoria.se@prefeitura.example
 Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Sé
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============0470671190950967553=="
+Content-Type: multipart/mixed; boundary="===============5309174360351920424=="
 
---===============0470671190950967553==
+--===============5309174360351920424==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
 
@@ -13,17 +13,17 @@ Mensagem simulada, gerada automaticamente pela automação de triagem da Calçad
 Subprefeitura: Sé
 Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261116-0E0E92E6 · obstaculo · prioridade alta
+- CL-20261119-2B1A1C0A · obstaculo · prioridade alta
 
 O detalhamento está no CSV anexo.
 
---===============0470671190950967553==
+--===============5309174360351920424==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="se.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtMEUwRTkyRTYsb2JzdGFjdWxvLGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVf
-cG9udG9fb25pYnVzLFPDqSwtMjMuNTYxNSwtNDYuNjU2LHZpc2FvLDIwMjYtMTEtMTZUMTg6MDE6MTEuMzgzNzg1DQo=
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTktMkIxQTFDMEEsb2JzdGFjdWxvLGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVf
+cG9udG9fb25pYnVzLFPDqSwtMjMuNTYxNSwtNDYuNjU2LHZpc2FvLDIwMjYtMTEtMTlUMTk6MjA6MzguMTAzMzM1DQo=
 
---===============0470671190950967553==--
+--===============5309174360351920424==--

@@ -2,9 +2,9 @@ From: triagem@calcadalivre.example
 To: zeladoria.santo_amaro@prefeitura.example
 Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Santo Amaro
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============3521914066801991890=="
+Content-Type: multipart/mixed; boundary="===============4744706430083573640=="
 
---===============3521914066801991890==
+--===============4744706430083573640==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
 
@@ -13,17 +13,17 @@ Mensagem simulada, gerada automaticamente pela automação de triagem da Calçad
 Subprefeitura: Santo Amaro
 Ocorrências: 1 (0 de prioridade alta)
 
-- CL-20261116-F6BBED11 · buraco · prioridade media
+- CL-20261119-BF26B0A4 · buraco · prioridade media
 
 O detalhamento está no CSV anexo.
 
---===============3521914066801991890==
+--===============4744706430083573640==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="santo_amaro.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtRjZCQkVEMTEsYnVyYWNvLG1lZGlhLGJhc2VfYnVyYWNvPW1lZGlhLFNhbnRvIEFtYXJvLC0y
-My42MTA1LC00Ni42OTUyLGFwcCwyMDI2LTExLTE2VDE4OjAxOjExLjM2OTE2OA0K
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTktQkYyNkIwQTQsYnVyYWNvLG1lZGlhLGJhc2VfYnVyYWNvPW1lZGlhLFNhbnRvIEFtYXJvLC0y
+My42MTA1LC00Ni42OTUyLGFwcCwyMDI2LTExLTE5VDE5OjIwOjM4LjA5MTg5Mw0K
 
---===============3521914066801991890==--
+--===============4744706430083573640==--

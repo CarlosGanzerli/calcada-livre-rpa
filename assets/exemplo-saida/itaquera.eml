@@ -2,9 +2,9 @@ From: triagem@calcadalivre.example
 To: zeladoria.itaquera@prefeitura.example
 Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Itaquera
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============7873253175041447246=="
+Content-Type: multipart/mixed; boundary="===============4471719434057557511=="
 
---===============7873253175041447246==
+--===============4471719434057557511==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
 
@@ -13,17 +13,17 @@ Mensagem simulada, gerada automaticamente pela automação de triagem da Calçad
 Subprefeitura: Itaquera
 Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261116-A6B8426E · obstaculo · prioridade alta
+- CL-20261119-5494369D · obstaculo · prioridade alta
 
 O detalhamento está no CSV anexo.
 
---===============7873253175041447246==
+--===============4471719434057557511==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="itaquera.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtQTZCODQyNkUsb2JzdGFjdWxvLGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVf
-cG9udG9fb25pYnVzLEl0YXF1ZXJhLC0yMy41NDIsLTQ2LjQ3MTIsY2FycmluaG8sMjAyNi0xMS0xNlQxODowMToxMi41ODA1ODQNCg==
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTktNTQ5NDM2OUQsb2JzdGFjdWxvLGFsdGEsYmFzZV9vYnN0YWN1bG89bWVkaWE7cGVydG9fZGVf
+cG9udG9fb25pYnVzLEl0YXF1ZXJhLC0yMy41NDIsLTQ2LjQ3MTIsY2FycmluaG8sMjAyNi0xMS0xOVQxOToyMDo1Mi4xNDMyNTMNCg==
 
---===============7873253175041447246==--
+--===============4471719434057557511==--

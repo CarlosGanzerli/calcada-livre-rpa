@@ -2,15 +2,15 @@
 
 [![Testes](https://github.com/CarlosGanzerli/calcada-livre-rpa/actions/workflows/testes.yml/badge.svg)](https://github.com/CarlosGanzerli/calcada-livre-rpa/actions/workflows/testes.yml)
 
-Componente de **Automação** da CitizenTech **Calçada Livre**, FIAP Global Solution 2026.2, Engenharia de Software 4º ano, disciplina *Robotic Process Automation* (profs. Bruno Diniz e Cibele Ribeiro).
+Componente de **Automação** da CitizenTech **Calçada Livre**, FIAP Global Solution 2026.2, Engenharia de Software 4º ano, disciplina *Robotic Process Automation* (profs. Cibele Ribeiro e Bruno Diniz).
 
 | Entrega | Onde está |
 |---|---|
-| Vídeo de demonstração (2 min 49 s) | [`assets/video-demonstracao.mp4`](https://github.com/CarlosGanzerli/calcada-livre-rpa/raw/main/assets/video-demonstracao.mp4) (MP4 de 6,4 MB; o link baixa o vídeo) |
+| Vídeo de demonstração (2 min 49 s) | [youtu.be/FP3vIp0J0NM](https://youtu.be/FP3vIp0J0NM) · cópia em [`assets/video-demonstracao.mp4`](https://github.com/CarlosGanzerli/calcada-livre-rpa/raw/main/assets/video-demonstracao.mp4) (MP4 de 10,6 MB; este link baixa o vídeo) |
 | Relatório técnico em PDF | [`docs/Relatorio-RPA-Calcada-Livre.pdf`](docs/Relatorio-RPA-Calcada-Livre.pdf) |
 | Fluxo do processo (BPMN 2.0) | [`docs/processo-triagem.bpmn`](docs/processo-triagem.bpmn) · [imagem](docs/processo-triagem.svg) |
 | Código-fonte | [`src/triagem/`](src/triagem/) |
-| Amostra do log de auditoria | [`logs/amostra-execucao-20261116.jsonl`](logs/amostra-execucao-20261116.jsonl) |
+| Amostra do log de auditoria | [`logs/amostra-execucao-20261119.jsonl`](logs/amostra-execucao-20261119.jsonl) |
 | Testes e evidências | [`tests/`](tests/) · [`assets/`](assets/) |
 
 ## Integrantes
@@ -32,7 +32,7 @@ Componente de **Automação** da CitizenTech **Calçada Livre**, FIAP Global Sol
 | Proposta de valor | Mapear as barreiras com cidadãos, um carrinho inspetor (Maker Lab) e visão computacional, triar automaticamente e encaminhar à subprefeitura certa com prioridade |
 | Componentes | App web com mapa (MVP), carrinho inspetor (Maker Lab), visão computacional, **automação de triagem (este repositório)**, pipeline de dados, assistente com LLM local, infraestrutura DevSecOps |
 | Fontes de dados | Relatos do app, leituras do carrinho, detecções da câmera, previsão Open-Meteo, pontos de interesse (hospitais, escolas, terminais) |
-| Modelos de IA | YOLO (detecção de barreiras), classificador embarcado no carrinho, LLM local (assistente) |
+| Modelos de IA | YOLO (visão computacional, detecção de barreiras) · LLM local (assistente) |
 | Repositórios | MVP e infraestrutura: [calcada-livre](https://github.com/CarlosGanzerli/calcada-livre) · Esta automação: [calcada-livre-rpa](https://github.com/CarlosGanzerli/calcada-livre-rpa) |
 | Indicadores de impacto | Tempo entre relato e encaminhamento; relatos triados sem intervenção humana; barreiras de prioridade alta perto de serviços essenciais |
 | ODS | 11 (cidades sustentáveis: mobilidade acessível), 10 (redução das desigualdades), 3 (saúde e bem-estar: quedas evitadas) |
@@ -103,10 +103,10 @@ Nenhuma falha é silenciosa: toda exceção vira uma linha de log com nível AVI
 
 ## Logs e auditoria
 
-Uma linha JSON por evento em `logs/robo-triagem-AAAAMMDD.jsonl`, com data e hora UTC, id da execução, evento, contagens, motivos e erros. A amostra [`logs/amostra-execucao-20261116.jsonl`](logs/amostra-execucao-20261116.jsonl) é real e traz quatro execuções seguidas: uma completa, duas do modo contínuo (a segunda tria um relato novo) e uma com o MVP desligado.
+Uma linha JSON por evento em `logs/robo-triagem-AAAAMMDD.jsonl`, com data e hora UTC, id da execução, evento, contagens, motivos e erros. A amostra [`logs/amostra-execucao-20261119.jsonl`](logs/amostra-execucao-20261119.jsonl) é real e traz as quatro execuções da demonstração de 19/11/2026: uma completa, uma com o MVP desligado e duas do modo contínuo (a segunda tria um relato novo).
 
 ```json
-{"ts": "2026-11-16T18:01:12+00:00", "nivel": "INFO", "execucao": "09aa3e12", "evento": "ocorrencia_encaminhada", "id": "13b8b1d2-6c03-48bd-a584-16370973e549", "protocolo": "CL-20261116-13B8B1D2", "prioridade": "alta", "razoes": ["base_degrau=media", "perto_de_hospital"], "subprefeitura": "Pinheiros", "dado_pessoal_removido": false}
+{"ts": "2026-11-19T19:20:52+00:00", "nivel": "INFO", "execucao": "f29a9008", "evento": "ocorrencia_encaminhada", "id": "838f905d-aa9f-4c83-be20-7d6c25387740", "protocolo": "CL-20261119-838F905D", "prioridade": "alta", "razoes": ["base_degrau=media", "perto_de_hospital"], "subprefeitura": "Pinheiros", "dado_pessoal_removido": false}
 ```
 
 O log **nunca** recebe descrição, foto ou coordenada: a classe `LogAuditoria` recusa esses campos.
@@ -115,7 +115,7 @@ Para ler o log no terminal em formato legível (hora de Brasília, uma linha por
 
 ```bash
 python -m triagem 2>&1 | python -m triagem.ver_log          # durante a execução
-python -m triagem.ver_log < logs/amostra-execucao-20261116.jsonl
+python -m triagem.ver_log < logs/amostra-execucao-20261119.jsonl
 ```
 
 ## Integração com o MVP
@@ -139,7 +139,7 @@ O resultado é consumido pelo MVP: a página e o resumo da API passam a mostrar 
 
 ![Página do MVP depois: 7 encaminhadas, 2 em quarentena e 1 duplicada](assets/mvp-depois-da-triagem.png)
 
-O pacote gerado nessa execução está em [`assets/exemplo-saida/`](assets/exemplo-saida/) (um CSV e um e-mail simulado por subprefeitura).
+As duas imagens são quadros do vídeo de demonstração, gravado em 19/11/2026. O pacote gerado nessa execução está em [`assets/exemplo-saida/`](assets/exemplo-saida/) (um CSV e um e-mail simulado por subprefeitura).
 
 ## Como executar
 

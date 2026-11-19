@@ -2,9 +2,9 @@ From: triagem@calcadalivre.example
 To: zeladoria.lapa@prefeitura.example
 Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Lapa
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============6699766445213012722=="
+Content-Type: multipart/mixed; boundary="===============6913937217967723440=="
 
---===============6699766445213012722==
+--===============6913937217967723440==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
 
@@ -13,17 +13,17 @@ Mensagem simulada, gerada automaticamente pela automação de triagem da Calçad
 Subprefeitura: Lapa
 Ocorrências: 1 (0 de prioridade alta)
 
-- CL-20261116-0959FE67 · sem_rampa · prioridade media
+- CL-20261119-E11DC19C · sem_rampa · prioridade media
 
 O detalhamento está no CSV anexo.
 
---===============6699766445213012722==
+--===============6913937217967723440==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="lapa.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtMDk1OUZFNjcsc2VtX3JhbXBhLG1lZGlhLGJhc2Vfc2VtX3JhbXBhPW1lZGlhLExhcGEsLTIz
-LjUzLC00Ni43LGFwcCwyMDI2LTExLTE2VDE4OjAxOjExLjQwNTc5MQ0K
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTktRTExREMxOUMsc2VtX3JhbXBhLG1lZGlhLGJhc2Vfc2VtX3JhbXBhPW1lZGlhLExhcGEsLTIz
+LjUzLC00Ni43LGFwcCwyMDI2LTExLTE5VDE5OjIwOjM4LjExOTc4Mw0K
 
---===============6699766445213012722==--
+--===============6913937217967723440==--

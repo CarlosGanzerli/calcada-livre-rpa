@@ -2,9 +2,9 @@ From: triagem@calcadalivre.example
 To: zeladoria.pinheiros@prefeitura.example
 Subject: [SIMULADO] Calçada Livre: 1 barreira para a Subprefeitura Pinheiros
 MIME-Version: 1.0
-Content-Type: multipart/mixed; boundary="===============1139108403632615912=="
+Content-Type: multipart/mixed; boundary="===============2653248470890990171=="
 
---===============1139108403632615912==
+--===============2653248470890990171==
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 8bit
 
@@ -13,17 +13,17 @@ Mensagem simulada, gerada automaticamente pela automação de triagem da Calçad
 Subprefeitura: Pinheiros
 Ocorrências: 1 (1 de prioridade alta)
 
-- CL-20261116-13B8B1D2 · degrau · prioridade alta
+- CL-20261119-838F905D · degrau · prioridade alta
 
 O detalhamento está no CSV anexo.
 
---===============1139108403632615912==
+--===============2653248470890990171==
 Content-Type: text/csv
 Content-Transfer-Encoding: base64
 Content-Disposition: attachment; filename="pinheiros.csv"
 MIME-Version: 1.0
 
-cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTYtMTNCOEIxRDIsZGVncmF1LGFsdGEsYmFzZV9kZWdyYXU9bWVkaWE7cGVydG9fZGVfaG9zcGl0
-YWwsUGluaGVpcm9zLC0yMy41NTc0LC00Ni42Njk5LGNhcnJpbmhvLDIwMjYtMTEtMTZUMTg6MDE6MTEuMzc3ODMxDQo=
+cHJvdG9jb2xvLHRpcG8scHJpb3JpZGFkZSxyYXpvZXMsc3VicHJlZmVpdHVyYSxsYXRpdHVkZSxsb25naXR1ZGUsb3JpZ2VtLGNyaWFkYV9lbQ0KQ0wtMjAyNjExMTktODM4RjkwNUQsZGVncmF1LGFsdGEsYmFzZV9kZWdyYXU9bWVkaWE7cGVydG9fZGVfaG9zcGl0
+YWwsUGluaGVpcm9zLC0yMy41NTc0LC00Ni42Njk5LGNhcnJpbmhvLDIwMjYtMTEtMTlUMTk6MjA6MzguMDk5MjI2DQo=
 
---===============1139108403632615912==--
+--===============2653248470890990171==--
